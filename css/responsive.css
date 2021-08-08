@@ -1,31 +1,4 @@
 @media only screen and (max-width: 600px) {
-	.slider .slider-container .slider-info {
-	    position: absolute;
-	    top: 30%;
-	    left: 10%;
-	    width: 90%;
-	}
-	.slider .slider-container .slider-info h1 {
-	    font-size: 20px;
-	    line-height: 20px;
-	}
-
-	.slider .slider-container .slider-info .slider-desc {
-	    margin-top: 12px;
-	    padding-right: 2rem;
-	    font-size: 12px;
-	    line-height: 15px;
-	    color: white;
-	}
-
-	.slider .slider-container .slider-info .slider-btn {
-	    margin-top: 10px;
-	}
-
-	.slider .slider-container .slider-info .slider-btn .btn {
-		padding: 8px 10px;
-		font-size: 6px;
-	}
 
 }
 
