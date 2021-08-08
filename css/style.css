@@ -251,6 +251,73 @@ nav .topnav .burger {
     animation-duration: 1.5s;
 }
 
-.slider .mySlides img {
+.slider .mySlides {
+    background: url('/img/slider1.webp') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.slider .mySlides:nth-child(2) {
+    background: url('/img/slider2.webp') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.slider .mySlides:nth-child(3) {
+    background: url('/img/slider3.webp') no-repeat center center/cover;
+    height: 100vh;
+}
+
+ {
     width: 100%;
+    height: 100vh;
+}
+
+
+/*ABout*/
+.about .about-info {
+    padding: 100px 60px;
+}
+
+.about .about-btn .btn:hover {
+    background: var(--dark-color);
+    color: var(--warning-color);
+}
+
+
+/*offer*/
+.offer .about-info {
+    padding: 100px 60px;
+}
+
+.offer .about-btn .btn:hover {
+    background: var(--dark-color);
+    color: var(--warning-color);
+}
+
+/*Count*/
+.count {
+    padding: 100px 0;
+    background: url('/img/slider2.webp') no-repeat center center/cover;
+}
+
+.count .count-content {
+    text-align: center;
+}
+
+.count .count-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.count .count-content h1 small {
+    color: var(--warning-color);
+    font-size: 20px;
+}
+
+.count .count-content h4 {
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
 }

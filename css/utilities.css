@@ -34,3 +34,38 @@ a {
 	background: var(--normal-color);
 	color: var(--warning-color);
 }
+
+/*Section*/
+/*h4*/
+.section-heading {
+  font-family: "Montserrat",Arial,sans-serif;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 5px;
+  color: #d9bf77;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.heading-margin {
+  margin-top: 10px;
+}
+
+.desc-margin {
+  margin-top: 2rem;
+}
+
+.desc-p-m {
+  margin-top: 1rem;
+}
+
+.section-btn-m {
+  margin-top: 4rem;
+}
+
+.section-title {
+  font-size: 30px; */
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--dark-color);
+}
